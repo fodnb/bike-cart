@@ -74,7 +74,7 @@ addProduct('bike');
 // creates button to move along application
 let addItem = document.createElement('button');
 addItem.innerHTML = "Go To Accessories";
-addItem.classList.add('btn-primary', 'btn');
+addItem.classList.add('btn-primary', 'btn', 'btn-mn');
 addItem.setAttribute('disabled', true);
 addItem.addEventListener('click', function () {
     while (rentals.firstChild) rentals.removeChild(rentals.firstChild);
